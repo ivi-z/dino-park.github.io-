@@ -1,0 +1,115 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:#e2d397;
+}
+header{
+    padding: 10px ;
+    background-color:#cf6123;
+}
+header h1,p{
+    text-align: center;
+    color: #e7d99f;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+a{ 
+    text-decoration: none;
+    color:#e2d397;
+    text-transform:uppercase;
+}
+
+footer{
+    background-color:#cf6123; 
+    padding: 10px;
+}
+footer p{
+    color:#e7d99f;
+    text-align: center;
+    
+}
+.lista{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.dinosaur-section li{
+    list-style: none;
+}
+.dinosaur-section h2{
+    text-align: center;
+    color: brown;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.carnivoros{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#d1733ce3;
+  padding: 10px;
+}
+.herbivoros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(92, 161, 92);
+    padding: 10px;
+    
+}
+.voladores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(124, 92, 161);
+    padding: 10px;
+    
+}
+.acuaticos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(69, 74, 148);
+    padding: 10px;
+}
+.dino{
+   width: 300px;
+    border:solid;
+    border-color: #e2d397;
+    border-radius: 5%;  
+}
+.nombre{
+    color:white;
+    margin-top: 15px;
+}
+.sombra{
+    text-shadow: 2px 2px 5px rgba(78, 44, 44, 0.897);
+}
+.cursiva{
+    font-style: italic;
+    color: blue;
+}
+
+.atracción{
+    letter-spacing: 5px;
+    color: white;
+    border-color:rgb(255, 255, 255);
+    border-style: dashed;
+    border-width:2px;
+}
+
+#slogan{
+    text-transform: none;
+    font-weight: 800;
+}
+#pterodactilo{
+    color:rgb(240, 128, 231);
+    margin-top: 15px;
+}
+#mosasaurus{
+    color:rgb(94, 94, 226);
+    margin-top: 15px;
+}
